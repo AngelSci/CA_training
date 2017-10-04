@@ -1,0 +1,84 @@
+# Datashare Lesson Plan
+
+## 00, Index notebook
+
+    /Datashader/Datashader.ipynb
+
+    Overview
+
+## 01, The mission of datashader
+
+    /Datashader/notebooks/Datashader_pitfalls.ipynb
+    
+    Dealing with saturation problems of plotting lots of data
+    Datashader uses many OOS Continuum
+    Binning uses numba
+    Writing your own transfer functions, good to use numba, it's already a dependency
+    You can come up with decent solutions,
+        but they will always be specific to your
+        particular data set, custom one-off each time
+        Datashader can do better "out of the box"
+
+##02, Datashader Pipeline
+
+    /Datashader/notebooks/Datashader_pipeline.ipynb
+
+    Datashader raster is all about "tapping in"
+
+    Context, Rendering Engines and limitations:
+       * SVG, upto 10^2 pts
+       * HTML5 Canvas, used by Bokeh, upto 10^4 pts
+       * WebGL, up to 10^6 pts, maybe more but not in Bokeh
+
+    When data is too large to send as single data pts, you want to send an raster (binned) image, not all the data.
+
+
+    df = pd.DataFrame()
+    df.memory_usage
+    Good example is to show how using categoricals reduces memory size in a DataFrame
+
+## 03, Taxi Data
+
+    Lesson: Datashader_ex_taxi.ipynb
+    Exercise: Datashader_ex_taxi.ipynb
+    Solution: Datashader_ex_taxi_soln.ipynb
+
+
+## 04, BokehGeo and Datashader
+
+    /Datashader/notebooks/Datashader_raster_data.ipynb
+
+    Overlap btw BokehGeo and Datashader, Map transfer functions
+    This demonstrates the two
+    Using canvas.raster from datashader
+    using the transfer functions from bokehgeo (from AWS Repository channel)
+
+## 05, Exercise: Race and Elevation
+
+    /Datashader/notebooks/Datashader_race_elevation.ipynb
+
+    Solution: Datashader_race_elevation_soln.ipynb
+    Pulls image from outside into the canvas
+    Then use the image data (elevation in this case)
+    The elevation data is then brought in as an array, just like a dataframe of points is
+
+    Image pixel values are in units of meters when you bring it in.
+
+## 06, Exercise: Landsat
+
+    /Datashader/notebooks/Datashader_landsat_soln.ipynb
+    
+    Landsat with numba normalization
+
+
+## Possible Trouble Spots: Datashader dependencies
+
+* These might not work on Windows:
+    * gdal
+    * rasterio 
+
+* Datashader
+    * Datashader_landsat.ipynb
+    * Datashader_raster_data.ipynb
+
+

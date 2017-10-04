@@ -1,0 +1,119 @@
+
+# LESSON NOTES for BOKEH
+
+## 00, Overview
+
+    /Bokeh/Bokeh.ipynb
+    "It's all javascript"
+    "How to create javascript plots without writing javascript, by writing python"
+    "Continuum writes the python interface, but that's it"
+
+
+## 01,  Charts, High-Level API
+
+     Bar charts, e.g.
+     /Bokeh/notebooks/Bokeh_charts.ipynb
+     /Bokeh/notebooks/Bokeh_ex_charts.ipynb
+     /Bokeh/notebooks/Bokeh_ex_charts_soln.ipynb
+
+
+## 02, Plotting, Mid-Level API
+
+    Analogous to Matplotlib level of detail
+
+    /Bokeh/notebooks/Bokeh_plotting.ipynb
+    /Bokeh/notebooks/Bokeh_plotting_styles.ipynb
+    /Bokeh/notebooks/Bokeh_ex_plotting.ipynb
+    /Bokeh/notebooks/Bokeh_ex_plotting_soln.ipynb
+
+
+## 03, Interactive Figures
+
+    /Bokeh/notebooks/Bokeh_layout.ipynb
+    /Bokeh/notebooks/Bokeh_ex_layout.ipynb
+    /Bokeh/notebooks/Bokeh_ex_layout_soln.ipynb
+    Should be renamed
+    THis does NOT show the new layout features of 0.12.0
+
+    Customizing Figures and their attributes
+
+    Note: you're building a "representation" of the plot using Bokeh, 
+    but then once executed with show(), it is "transpiled" into javascript, 
+    and then letting javascript actual rendering the final visualization.
+
+    Much of the terminology in Bokeh comes from "The Grammar of Graphics"
+        * http://www.springer.com/us/book/9780387245447
+        * https://en.wikipedia.org/wiki/Leland_Wilkinson
+
+## 04, ColumnDataSource and HoverTool
+
+    /Bokeh/notebooks/Bokeh_interative.ipynb
+    /Bokeh/notebooks/Bokeh_ex_interactive.ipynb
+    /Bokeh/notebooks/Bokeh_ex_interactive_soln.ipynb
+
+    There's others, and HoverTool is no good for mobile touch screens
+
+    Other tools
+        * HoverTool
+        * TapTool, click and an action, you can write small 
+          javascript callback that executes on tap
+        * SaveTool, to save image file of your plot
+
+    Tools linked to ColumnDataSource
+
+        * HoverTool
+        * LassoTool
+        * LinkedBrushing
+        * BoxZoom
+
+    Tools more general
+
+        * SaveTool
+        * TapTool
+        * ResetTool
+
+## 05, Map Overlays
+
+    /Bokeh/notebooks/Bokeh_maps.ipynb
+    
+    This could come before the HoverTool notebook
+
+## 06, Tile Sources
+
+    /Bokeh/notebooks/Bokeh_custom_tile_sources.ipynb
+
+    There's a lot of other base-maps around
+    If you know how to create a tile source, 
+       you can create your own interactive map
+
+
+## 07,  Mapping NYC
+
+     /Bokeh/notebooks/Bokeh_taxi.ipynb
+
+     /Bokeh/notebooks/Bokeh_ex_nyc_subway_stations.ipynb
+     /Bokeh/notebooks/Bokeh_ex_nyc_subway_soln.ipynb
+     /Bokeh/notebooks/Bokeh_ex_nyc_crime.ipynb
+     /Bokeh/notebooks/Bokeh_ex_nyc_crime_soln.ipynb
+
+## Notes:
+
+    Note about memory usage
+        print(df.memory_usage())
+        df['Offense'] = df['Offense'].astype('category')
+        print(df.memory_usage())
+
+
+## LEFT-OVERS:
+
+    Bokeh_ex_kml_*, skip or delete.
+
+
+
+
+
+
+
+
+
+

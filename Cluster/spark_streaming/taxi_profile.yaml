@@ -1,0 +1,8 @@
+name: taxi_profile
+node_id: ami-d05e75b8
+node_type: m3.large
+num_nodes: 3
+provider: aws_east
+user: ubuntu
+plugins:
+  - hdfs

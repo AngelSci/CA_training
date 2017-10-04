@@ -1,0 +1,2 @@
+import qstats
+qstats.test()

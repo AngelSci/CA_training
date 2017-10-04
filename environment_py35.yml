@@ -1,0 +1,17 @@
+name: coursework_py35
+dependencies:
+ - python=3.5
+ - future
+ - numpy
+ - scipy
+ - matplotlib
+ - jupyter
+ - pillow 
+ - bokeh
+ - xlrd
+ - h5py
+ - pandas
+ - pandas-datareader
+ - seaborn
+ - statsmodels
+

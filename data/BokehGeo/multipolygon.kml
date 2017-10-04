@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Polygon.kml</name>
+  <open>0</open>
+  <Placemark>
+    <name>Bokeh-Geo Example MultiGeometry - Polygons</name>
+    <description>Example multigeometry polygon feature</description>
+    <ExtendedData>
+      <Data name="extended_data_name">
+        <value>extend data value</value>
+      </Data>
+    </ExtendedData>
+    <MultiGeometry>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <LinearRing>
+          <coordinates>
+	    0, 10, 0
+	    10, 20, 0
+	    20, 30, 0
+	    30, 50, 0
+	    0, 10, 0
+          </coordinates>
+        </LinearRing>
+      </Polygon>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <LinearRing>
+          <coordinates>
+	    50, 60, 0
+	    10, 20, 0
+	    20, 30, 0
+	    30, 50, 0
+	    50, 60, 0
+          </coordinates>
+        </LinearRing>
+      </Polygon>
+    </MultiGeometry>
+  </Placemark>
+</Document>
+</kml>

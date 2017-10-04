@@ -1,0 +1,37 @@
+name: iqt
+dependencies:
+ - python=3.5
+ - accelerate
+ - beautifulsoup4
+ - blaze
+ - bokeh
+ - boto
+ - dask
+ - future
+ - gensim
+ - h5py
+ - iopro
+ - jupyter
+ - _nb_ext_conf
+ - matplotlib
+ - nltk
+ - numpy
+ - pandas
+ - pandas-datareader
+ - pillow
+ - pyproj
+ - scikit-image
+ - scikit-learn
+ - scipy
+ - seaborn
+ - statsmodels
+ - xarray
+ - xlrd
+ - distributed
+ - ipython==4.2
+ - line_profiler
+ - memory_profiler
+ - krb5
+ - rasterio
+ - pip:
+   - graphviz==0.4.10

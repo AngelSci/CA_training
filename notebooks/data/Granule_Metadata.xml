@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!-- ftp://gpm1.gesdisc.eosdis.nasa.gov/data/s4pa/S4paGran2HTML.xsl -->
+<?xml-stylesheet type="text/xsl" href="S4paGran2HTML.xsl"?>
+<S4PAGranuleMetaDataFile>
+  <CollectionMetaData>
+    <ShortName>GPM_3GPROFF16SSMIS_DAY</ShortName>
+    <VersionID>03</VersionID>
+    <URL xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="ftp://gpm1.gesdisc.eosdis.nasa.gov/data/s4pa/GPM_L3/GPM_3GPROFF16SSMIS_DAY.03/GES_DISC_GPM_3GPROFF16SSMIS_DAY_V03_dif.xml" xlink:show="new" xlink:actuate="onRequest" xlink:title="Click to view GPM_3GPROFF16SSMIS_DAY collection">ftp://gpm1.gesdisc.eosdis.nasa.gov/data/s4pa/GPM_L3/GPM_3GPROFF16SSMIS_DAY.03/GES_DISC_GPM_3GPROFF16SSMIS_DAY_V03_dif.xml</URL>
+  </CollectionMetaData>
+  <DataGranule>
+    <GranuleID>3A-DAY.F16.SSMIS.GRID2014R2.20150101-S000000-E235959.001.V03C.HDF5</GranuleID>
+    <LocalGranuleID>3A-DAY.F16.SSMIS.GRID2014R2.20150101-S000000-E235959.001.V03C.HDF5</LocalGranuleID>
+    <Format>HDF-5</Format>
+    <CheckSum>
+      <CheckSumType>CRC32</CheckSumType>
+      <CheckSumValue>4233160232</CheckSumValue>
+    </CheckSum>
+    <SizeBytesDataGranule>17092010</SizeBytesDataGranule>
+    <InsertDateTime>2015-02-02 15:57:28</InsertDateTime>
+    <ProductionDateTime>2015-01-06T12:44:56.000Z</ProductionDateTime>
+  </DataGranule>
+  <RangeDateTime>
+    <RangeEndingDate>2015-01-01</RangeEndingDate>
+    <RangeEndingTime>23:59:59.999</RangeEndingTime>
+    <RangeBeginningDate>2015-01-01</RangeBeginningDate>
+    <RangeBeginningTime>00:00:00.000</RangeBeginningTime>
+  </RangeDateTime>
+  <SpatialDomainContainer>
+    <HorizontalSpatialDomainContainer>
+      <BoundingRectangle>
+        <WestBoundingCoordinate>-180.0</WestBoundingCoordinate>
+        <NorthBoundingCoordinate>90.0</NorthBoundingCoordinate>
+        <EastBoundingCoordinate>180.0</EastBoundingCoordinate>
+        <SouthBoundingCoordinate>-90.0</SouthBoundingCoordinate>
+      </BoundingRectangle>
+    </HorizontalSpatialDomainContainer>
+  </SpatialDomainContainer>
+  <Platform>
+    <PlatformShortName>F16</PlatformShortName>
+    <Instrument>
+      <InstrumentShortName>SSMIS</InstrumentShortName>
+    </Instrument>
+  </Platform>
+  <PSAs>
+    <PSA>
+      <PSAName>DOI</PSAName>
+      <PSAValue>10.5067/GPM/SSMIS/F16/DAY/3A</PSAValue>
+    </PSA>
+    <PSA>
+      <PSAName>Algorithm ID</PSAName>
+      <PSAValue>3GPROF</PSAValue>
+    </PSA>
+    <PSA>
+      <PSAName>Algorithm Version</PSAName>
+      <PSAValue>GRID2014R2</PSAValue>
+    </PSA>
+    <PSA>
+      <PSAName>Granule Number</PSAName>
+      <PSAValue/>
+    </PSA>
+    <PSA>
+      <PSAName>Number Of Grids</PSAName>
+      <PSAValue>1</PSAValue>
+    </PSA>
+    <PSA>
+      <PSAName>Granule Start</PSAName>
+      <PSAValue/>
+    </PSA>
+    <PSA>
+      <PSAName>Time Interval</PSAName>
+      <PSAValue>DAY</PSAValue>
+    </PSA>
+    <PSA>
+      <PSAName>Processing System</PSAName>
+      <PSAValue>PPS</PSAValue>
+    </PSA>
+    <PSA>
+      <PSAName>Missing Data</PSAName>
+      <PSAValue/>
+    </PSA>
+    <PSA>
+      <PSAName>Empty Granule</PSAName>
+      <PSAValue>NOT_EMPTY</PSAValue>
+    </PSA>
+  </PSAs>
+</S4PAGranuleMetaDataFile>

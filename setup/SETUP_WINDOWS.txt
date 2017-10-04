@@ -1,0 +1,71 @@
+# Set-up the Course Environment
+
+## Command Prompt
+
+You will need to run commands from the Windows command prompt or a similar application. Here are a few:
+ 
+* [How to launch the Command Prompt](http://www.digitalcitizen.life/7-ways-launch-command-prompt-windows-7-windows-8)
+* [PowerShell](http://www.microsoft.com/en-us/download/details.aspx?id=42554)
+* [Console](https://sourceforge.net/projects/console/)
+
+## Set-up Summary
+
+If you just want to get set-up, run the following commands:
+
+```
+repo-setup.bat
+conda env create
+activate iqt
+extra-pkgs.bat
+```
+
+## Set-up, Details
+
+If you want to understand each step in the block of commands seen above, read on. We will examine each command before running it to understand its purpose.
+
+### Repository Set-up
+
+This script performs additional configuration needed for demonstration of Anaconda Repository, including:
+
+* installation latest version of conda
+* custom configuration allowing your anaconda client to know the web network address of the AWS host used for this demo.
+
+```
+repo-setup.bat
+```
+
+### Baseline environment
+
+The following `conda` command reads the `environment.yml` file and installs all packages listed therein, along with their dependencies (not listed):
+
+```
+conda env create
+```
+
+### Activating the envrinment
+
+The following conda command activates the environment, which updates your system `%PATH%` to point to specific environment and associated versions of packages under your anaconda environments directory:
+
+```
+activate iqt
+```
+
+### Accelerate, Bokeh, and Datashader set-up
+
+This script installs additional packages needed for the demonstration of Anaconda Accelerate, including:
+
+
+* `accelerate-dldist`
+* `accelerate-gensim`
+* `accelerate-skimage`
+* `datashader`
+* `bokeh-geo`
+
+```
+extra-pkgs.bat
+```
+
+
+## Testing your Set-up
+
+* Launch the Anaconda Navigator and activate the `iqt` environment.

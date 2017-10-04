@@ -1,0 +1,16 @@
+name: coursework_py27
+dependencies:
+ - python=2.7
+ - future
+ - numpy
+ - scipy
+ - matplotlib
+ - jupyter
+ - pillow 
+ - bokeh
+ - xlrd
+ - h5py
+ - pandas
+ - pandas-datareader
+ - seaborn
+ - statsmodels

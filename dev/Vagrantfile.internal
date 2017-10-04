@@ -1,0 +1,54 @@
+SERVER_NAME   = "anaconda-enterprise.trl"
+SERVER_IP     = "172.31.32.17"
+
+trialsetup = <<SCRIPT
+echo "Anaconda Enterprise Trial:           http://#{SERVER_NAME}/welcome"
+echo "Anaconda Enterprise Notebook Server: http://#{SERVER_NAME}/"
+echo "Anaconda Repository:                 http://#{SERVER_NAME}/repo"
+echo "Anaconda Visualization Server:       http://#{SERVER_NAME}/bokehapps"
+SCRIPT
+
+Vagrant.configure(2) do |config|
+  config.vm.provider "virtualbox" do |v|
+    v.name            = "aetrial_v2"
+    v.memory          = 2048
+    v.cpus            = 1
+  end
+
+  config.vm.provider "vmware_fusion" do |v|
+    v.vmx["memsize"]  = "2048"
+    v.vmx["numvcpus"] = "1"
+  end
+
+  config.vm.provider "vmware_workstation" do |v|
+    v.vmx["memsize"]  = "2048"
+    v.vmx["numvcpus"] = "1"
+  end
+
+  if Vagrant.has_plugin?("vagrant-cachier")
+    config.cache.scope = :box
+  end
+
+  unless Vagrant.has_plugin?("vagrant-hostsupdater")
+    system("vagrant plugin install vagrant-hostsupdater")
+    puts "Dependencies installed, please try the command again."
+    exit
+  end
+
+  config.vm.network             :private_network, ip: "#{SERVER_IP}"
+  config.vm.box               = "aetrial_v2"
+  config.vm.box_url           = "http://filer.corp.continuum.io/~ijstokes/aetrial_v2.box"
+  config.vm.box_check_update  = false
+  config.vm.hostname          = "#{SERVER_NAME}"
+  config.vm.synced_folder       "..", "/trialbox"
+
+  config.ssh.insert_key       = false
+  config.ssh.forward_agent    = true
+
+  config.vm.provision "shell" do |s|
+    s.inline = trialsetup
+  end
+end
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :

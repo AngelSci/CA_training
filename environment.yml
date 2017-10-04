@@ -1,0 +1,31 @@
+name: anaconda_training
+dependencies:
+ - python=3.5
+ - _nb_ext_conf
+ - jupyter
+ - numpy
+ - future
+ - matplotlib
+ - scipy
+ - pillow
+ - bokeh
+ - scikit-learn
+ - xlrd
+ - h5py
+ - lxml
+ - openpyxl
+ - xlwt
+ - cython
+ - numba
+ - cffi
+ - line_profiler
+ - netcdf4
+ - psutil
+ - blaze
+ - dask
+ - seaborn
+ - html5lib
+ - beautifulsoup4
+ - spyder
+ - pytest
+ - memory_profiler

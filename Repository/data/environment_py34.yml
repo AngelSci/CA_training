@@ -1,0 +1,13 @@
+name: py34
+dependencies:
+- openssl=1.0.2h=1
+- pip=8.1.2=py34_0
+- pyproj=1.9.5.1=py34_0
+- python=3.4.4=0
+- readline=6.2=2
+- setuptools=23.0.0=py34_0
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- wheel=0.29.0=py34_0
+- xz=5.0.5=1
+- zlib=1.2.8=3

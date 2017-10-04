@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="S4paDIF2HTML.xsl"?>
+<DIF xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.9.3.xsd">
+  <Entry_ID>GES_DISC_GPM_3GPROFF16SSMIS_DAY_V03</Entry_ID>
+  <Entry_Title>GPM, F16, GMI,SSMI Level 3 Daily GPROF Profiling V03 (GPM_3GPROFF16SSMIS_DAY) at GES DISC</Entry_Title>
+  <Data_Set_Citation>
+    <Dataset_Creator>GPM Science Team</Dataset_Creator>
+    <Dataset_Title>GPM, F16,GMI,SSMI Level 3 Daily GPROF Profiling</Dataset_Title>
+    <Dataset_Series_Name>GPM_3GPROFF16SSMIS_DAY</Dataset_Series_Name>
+    <Dataset_Release_Date>2014-07-14</Dataset_Release_Date>
+    <Dataset_Release_Place>Greenbelt, MD, USA</Dataset_Release_Place>
+    <Dataset_Publisher>Goddard Space Flight Center Distributed Active Archive Center (GSFC DAAC)</Dataset_Publisher>
+    <Version>03</Version>
+    <Online_Resource>http://disc.gsfc.nasa.gov/datacollection/GES_DISC_GPM_3GPROFF16SSMIS_DAY_V03.shtml</Online_Resource>
+  </Data_Set_Citation>
+  <Personnel>
+    <Role>INVESTIGATOR</Role>
+    <First_Name>CHRISTIAN</First_Name>
+    <Last_Name>KUMMEROW</Last_Name>
+    <Email>helpdesk@pps-mail.nascom.nasa.gov</Email>
+    <Phone>301-614-5184</Phone>
+    <Fax>301-614-5575</Fax>
+    <Contact_Address>
+      <Address>NASA Goddard Space Flight Center</Address>
+      <Address>Mailstop 610.2</Address>
+      <City>Greenbelt</City>
+      <Province_or_State>MD</Province_or_State>
+      <Postal_Code>20771</Postal_Code>
+      <Country>USA</Country>
+    </Contact_Address>
+  </Personnel>
+  <Personnel>
+    <Role>DIF AUTHOR</Role>
+    <First_Name>DANA</First_Name>
+    <Last_Name>OSTRENGA</Last_Name>
+    <Email>dana.ostrenga@nasa.gov</Email>
+    <Phone>301-614-5475</Phone>
+    <Fax>301-614-5268</Fax>
+    <Contact_Address>
+      <Address>Code 610.2 Bldg 32 Rm S151</Address>
+      <Address>NASA Goddard Space Flight Center</Address>
+      <City>Greenbelt</City>
+      <Province_or_State>MD</Province_or_State>
+      <Postal_Code>21230</Postal_Code>
+      <Country>USA</Country>
+    </Contact_Address>
+  </Personnel>
+  <Personnel>
+    <Role>DIF AUTHOR</Role>
+    <First_Name>ZHONG</First_Name>
+    <Last_Name>LIU</Last_Name>
+    <Email>Zhong.Liu-1@nasa.gov</Email>
+    <Contact_Address>
+      <Address>NASA</Address>
+      <Address>Goddard Space Flight Center</Address>
+      <Address>Mailstop 610.2</Address>
+      <City>Greenbelt</City>
+      <Province_or_State>MD</Province_or_State>
+      <Postal_Code>20771</Postal_Code>
+      <Country>USA</Country>
+    </Contact_Address>
+  </Personnel>
+  <Parameters uuid="286d2ae0-9d86-4ef0-a2b4-014843a98532">
+    <Category>EARTH SCIENCE</Category>
+    <Topic>ATMOSPHERE</Topic>
+    <Term>ATMOSPHERIC WATER VAPOR</Term>
+  </Parameters>
+  <Parameters uuid="1532e590-a62d-46e3-8d03-2351bc48166a">
+    <Category>EARTH SCIENCE</Category>
+    <Topic>ATMOSPHERE</Topic>
+    <Term>PRECIPITATION</Term>
+  </Parameters>
+  <ISO_Topic_Category uuid="1ebf71bd-d007-42f8-8f9b-8c44a6b65a28">CLIMATOLOGY/METEOROLOGY/ATMOSPHERE</ISO_Topic_Category>
+  <Keyword>Atmosphere, Precipitation, Water Vapor</Keyword>
+  <Sensor_Name uuid="7cac33c5-a557-4fee-b564-000c5e7f2817">
+    <Short_Name>GMI</Short_Name>
+    <Long_Name>Global Precipitation Measurement Microwave Imager</Long_Name>
+  </Sensor_Name>
+  <Sensor_Name uuid="c5058bd9-6183-4c0a-a6aa-611540ba1196">
+    <Short_Name>SSMI</Short_Name>
+    <Long_Name>Special Sensor Microwave/Imager</Long_Name>
+  </Sensor_Name>
+  <Source_Name uuid="33a893cb-b328-462e-9cb0-d8c27823239e">
+    <Short_Name>GPM</Short_Name>
+    <Long_Name>Global Precipitation Measurement</Long_Name>
+  </Source_Name>
+  <Source_Name uuid="2f4b0671-f9a0-4912-96cd-96527a4c0678">
+    <Short_Name>DMSP 5D-3/F16</Short_Name>
+    <Long_Name>Defense Meteorological Satellite Program-F16</Long_Name>
+  </Source_Name>
+  <Temporal_Coverage>
+    <Start_Date>2014-02-01</Start_Date>
+  </Temporal_Coverage>
+  <Data_Set_Progress>IN WORK</Data_Set_Progress>
+  <Spatial_Coverage>
+    <Southernmost_Latitude>-90.0</Southernmost_Latitude>
+    <Northernmost_Latitude>90.0</Northernmost_Latitude>
+    <Westernmost_Longitude>-180.0</Westernmost_Longitude>
+    <Easternmost_Longitude>180.0</Easternmost_Longitude>
+  </Spatial_Coverage>
+  <Location uuid="639c23bd-f64a-4061-a535-4a1a842d230f">
+    <Location_Category>GEOGRAPHIC REGION</Location_Category>
+    <Location_Type>TROPICS</Location_Type>
+  </Location>
+  <Data_Resolution>
+    <Latitude_Resolution>4 km</Latitude_Resolution>
+    <Longitude_Resolution>4 km</Longitude_Resolution>
+    <Horizontal_Resolution_Range uuid="6dd8224f-944e-4798-ac48-44c23a567eeb">1 km - &lt; 10 km or approximately .01 degree - &lt; .09 degree</Horizontal_Resolution_Range>
+    <Vertical_Resolution>125-250m</Vertical_Resolution>
+    <Vertical_Resolution_Range uuid="eccf8700-c503-46a3-b6f7-86cf7e48465a">100 meters - &lt; 1 km</Vertical_Resolution_Range>
+    <Temporal_Resolution>1 day</Temporal_Resolution>
+    <Temporal_Resolution_Range uuid="1ac968ef-a90a-4ffc-adbf-ea0c0d69a7f9">Daily - &lt; Weekly</Temporal_Resolution_Range>
+  </Data_Resolution>
+  <Project uuid="7bb4c1ab-c1a5-4d09-922a-a0f9141d3bf3">
+    <Short_Name>GPM</Short_Name>
+    <Long_Name>Global Precipitation Measurement</Long_Name>
+  </Project>
+  <Quality>
+      The primary limitation of the 3GPROF product is the reliance on a single sensor for each output file, thus limiting the available sampling to two times a day or less, except at high latitudes. In addition, with the exception of the GMI, TMI, and SAPHIR sensors, all of the other sensors are in Sun-synchronous orbits, meaning that they observe a given point on the Earth's surface at the same local times each day. Over land regions in particular, this can lead to large sampling errors associated with the diurnal cycle. Errors due to the limited sampling and differences in the sampling times between Sun-synchronous satellites (e.g., F16, F17, F18, NOAA-18, NOAA-19, NPP, METOP-A, METOP-B, and GCOM-W1) can lead to significant differences in the monthly mean values between satellites/sensors. The sampling errors are largest over land regions with large diurnal cycles in precipitation. Other sources of error that can significantly impact the 3GPROF products include difficulties over certain surface types such as sea ice, snow, frozen ground, and deserts, and limited sensitivity of the sounder instruments (in particular to light precipitation and/or shallow warm rain systems). The sounders include the ATMS, MHS, and SAPHIR sensors, which do not have channels with sensitivity to the surface and/or lower atmosphere.
+   </Quality>
+  <Access_Constraints>
+      None
+   </Access_Constraints>
+  <Data_Set_Language>English</Data_Set_Language>
+  <Originating_Center>Precipitation Processing System (PPS)</Originating_Center>
+  <Data_Center>
+    <Data_Center_Name uuid="51a7f454-defc-47c2-ba6a-f95847962b7e">
+      <Short_Name>NASA/GSFC/SED/ESD/GCDC/GESDISC</Short_Name>
+      <Long_Name>Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA</Long_Name>
+    </Data_Center_Name>
+    <Data_Center_URL>http://disc.gsfc.nasa.gov/</Data_Center_URL>
+    <Personnel>
+      <Role>DATA CENTER CONTACT</Role>
+      <Last_Name>GES DISC HELP DESK SUPPORT GROUP</Last_Name>
+      <Email>gsfc-help-disc@lists.nasa.gov</Email>
+      <Phone>301-614-5224</Phone>
+      <Fax>301-614-5268</Fax>
+      <Contact_Address>
+        <Address>Goddard Earth Sciences Data and Information Services Center</Address>
+        <Address>Code 610.2</Address>
+        <Address>NASA Goddard Space Flight Center</Address>
+        <City>Greenbelt</City>
+        <Province_or_State>MD</Province_or_State>
+        <Postal_Code>20771</Postal_Code>
+        <Country>USA</Country>
+      </Contact_Address>
+    </Personnel>
+  </Data_Center>
+  <Distribution>
+    <Distribution_Media>FTP</Distribution_Media>
+    <Distribution_Size>Approx 634.52 MB per file</Distribution_Size>
+    <Distribution_Format>HDF5</Distribution_Format>
+    <Fees>None</Fees>
+  </Distribution>
+  <Reference>
+      GPM/PPS File Specification 3GPROF.   </Reference>
+  <Reference>
+      Aires, F., F. Bernardo, H. Brogniez, and C. Prigent, 2010: An Innovative Calibration Method for the Inversion of Satellite Observations. J. of Appl. Meteorol. and Climatology, 49, 2458-2473, doi: 10.1175/2010JAMC2435.1.   </Reference>
+  <Reference>
+      Aires, F., C. Prigent, F. Bernardo, C. JimÃÂ©nez, R. Saunders, and P. Brunel, 2011: A Tool to Estimate Land-Surface Emissivities at Microwave Frequencies (TELSEM) for Use in Numerical Weather Prediction. Q. J. of the Roy. Meteorol. Soc., 137: 690-699, doi: 10.1002/qj.803.   </Reference>
+  <Reference>
+      Boukabara, S.-A.; F. Weng, and Q. Liu, 2007: Passive Microwave Remote Sensing of Extreme Weather Events Using NOAA-18 AMSUA and MHS. Geoscience and Remote Sensing, IEEE Transactions on, 45, 2228-2246, doi: 10.1109/TGRS.2007.898263.   </Reference>
+  <Reference>
+      Boukabara, S.-A., K. Garrett, W. Chen, F. Iturbide-Sanchez, C. Grassotti, C. Kongoli, R. Chen, Q. Liu, B. Yan, F. Weng, R. Ferraro, T. J. Kleespies, and H. Meng, 20011: MiRS: An All-Weather 1DVAR Satellite Data Assimilation and Retrieval System. Geoscience and Remote Sensing, IEEE Transactions on, 49, 3249-3272, doi:10.1109/TGRS.2011.2158438.   </Reference>
+  <Reference>
+      Hiley, M. J., M. S. Kulie, and R. Bennartz, 2011: Uncertainty Analysis for CloudSat Snowfall Retrievals. J. Appl. Meteorol. Clim., 50, 399-418.   </Reference>
+  <Reference>
+      Kummerow, C., W. S. Olson, and L. Giglio, 1996: A Simplified Scheme for Obtaining Precipitation and Vertical Hydrometeor Profiles from Passive Microwave Sensors. IEEE, Trans on Geoscience and Remote Sensing, 34, 1213-1232, doi: 10.1109/36.536538.   </Reference>
+  <Reference>
+      Kummerow, C., S. Ringerud, S. Crook, D. Randel, and W. Berg, 2011: An Observationally Generated a-priori Database for Microwave Rainfall Retrievals. J. Atmos. Oceanic Technol., 28, 113-130.   </Reference>
+  <Reference>
+      Prigent, C., W. B. Rossow, and E. Matthews, 1997: Microwave Land Surface Emissivities Estimated from SSM/I Observations. J. Geophys. Res., 102, 21 867 Ã¢â¬â 21 890.   </Reference>
+  <Reference>
+      Prigent, C., E. Jaumouille, F. Chevallier, and F. Aires, 2008: A Parameterization of the Microwave Land Surface Emissivity Between 19 and 100 GHz, Anchored to Satellite-Derived Estimates. IEEE Transaction on Geoscience and Remote Sensing, 46, 344-352, doi:10.1109/TGRS.2007.908881.   </Reference>
+  <Reference>
+      Sudradjat, A., N.-Y. Wang, K. Gopalan, and R. Ferraro, 2011: Prototyping a Generic, Unified Land Surface Classification and Screening Methodology for GPM-era Microwave Land Precipitation Retrieval Algorithms. J. Appl. Meteorol. and Climatology, 50, 1200-1211, doi: 10.1175/2010JAMC2572.1   </Reference>
+  <Summary>
+    <Abstract>3GPROF products provide global gridded monthly/daily precipitation averages from multiple satellites that can be used for climate studies. The 3GPROF products are based on retrievals from high-quality microwave sensors, which are sensitive to liquid and ice-phase precipitation hydrometeors in the atmosphere.</Abstract>
+    <Purpose>The purpose of the 3GPROF algorithm is to provide monthly and daily mean precipitation and related retrieved parameters from the Level 2 GPROF precipitation profiling algorithm for the GPM core and constellation satellites. Each 3GPROF product contains global 0.25 degree x 0.25 degree gridded monthly/daily means. Because this product is an accumulation of the Level 2 retrieval products, much more information is available via the GPROF Level 2 documentation.</Purpose>
+  </Summary>
+  <Related_URL>
+    <URL_Content_Type uuid="3c2a68a6-d8c2-4f14-8208-e57a4446ad71">
+      <Type>GET DATA</Type>
+      <Subtype>ON-LINE ARCHIVE</Subtype>
+    </URL_Content_Type>
+    <URL>ftp://gpm1.gesdisc.eosdis.nasa.gov/data/s4pa/GPM_L3/GPM_3GPROFF16SSMIS_DAY.V03/</URL>
+    <Description>
+         Access the data via FTP
+      </Description>
+  </Related_URL>
+  <Related_URL>
+    <URL_Content_Type uuid="9b05d2a3-9a5a-425c-b6ed-59e0e56814fa">
+      <Type>GET DATA</Type>
+      <Subtype>MIRADOR</Subtype>
+    </URL_Content_Type>
+    <URL>http://mirador.gsfc.nasa.gov/cgi-bin/mirador/homepageAlt.pl?keyword=GPM_3GPROFF16SSMIS_DAY</URL>
+    <Description>
+         Mirador (from Spanish, a place providing a wide view) is a Google-based data archive search interface that allows searching, browsing, and retrieving of Earth science data at NASA GES DISC
+      </Description>
+  </Related_URL>
+  <Related_URL>
+    <URL_Content_Type uuid="2f1f3f44-61d5-48db-a8ac-06e3f777bf35">
+      <Type>GET DATA</Type>
+      <Subtype>OPENDAP DATA (DODS)</Subtype>
+    </URL_Content_Type>
+    <URL>http://gpm1.gesdisc.eosdis.nasa.gov/opendap/GPM_L3/GPM_3GPROFF16SSMIS_DAY.V03/contents.html</URL>
+    <Description>
+         Access the data via the OPeNDAP protocol
+      </Description>
+  </Related_URL>
+  <Related_URL>
+    <URL_Content_Type uuid="5cb9c24e-1afe-471d-9f1a-808d390ab623">
+      <Type>GET DATA</Type>
+      <Subtype>REVERB</Subtype>
+    </URL_Content_Type>
+    <URL>http://reverb.echo.nasa.gov/reverb/#utf8=%E2%9C%93&amp;amp;spatial_map=satellite&amp;amp;spatial_type=rectangle&amp;amp;keywords=GPM_3GPROFF16SSMIS_DAY</URL>
+    <Description>
+         Search and retrieve data with Reverb ECHO
+      </Description>
+  </Related_URL>
+  <Related_URL>
+    <URL_Content_Type uuid="6e72d128-7d28-4bd0-bac0-8c5ffd8b31f1">
+      <Type>VIEW PROJECT HOME PAGE</Type>
+    </URL_Content_Type>
+    <URL>http://pmm.gsfc.nasa.gov/GPM</URL>
+    <Description>
+         GPM Project Home Page
+      </Description>
+  </Related_URL>
+  <Related_URL>
+    <URL_Content_Type uuid="d1996d91-e824-4b24-b94e-3aae4543b63b">
+      <Type>VIEW RELATED INFORMATION</Type>
+      <Subtype>USER'S GUIDE</Subtype>
+    </URL_Content_Type>
+    <URL>ftp://gpm1.gesdisc.eosdis.nasa.gov/data/s4pa/GPM_L3/doc/README.GPM.pdf</URL>
+    <Description>
+         README Document
+      </Description>
+  </Related_URL>
+  <IDN_Node uuid="9ae20472-ba4c-4b01-8d97-857b73fa3c95">
+    <Short_Name>USA/NASA</Short_Name>
+  </IDN_Node>
+  <Originating_Metadata_Node>GCMD</Originating_Metadata_Node>
+  <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+  <Metadata_Version>VERSION 9.8.4</Metadata_Version>
+  <DIF_Creation_Date>2015-01-15</DIF_Creation_Date>
+  <Last_DIF_Revision_Date>2015-01-21</Last_DIF_Revision_Date>
+  <DIF_Revision_History>
+      V03A, V03B,V03C
+   </DIF_Revision_History>
+  <Extended_Metadata>
+    <Metadata>
+      <Group>gov.nasa.gsfc.gcmd</Group>
+      <Name>metadata.extraction_date</Name>
+      <Value>2015-01-29 13:54:27</Value>
+    </Metadata>
+    <Metadata>
+      <Group>gov.nasa.gsfc.gcmd</Group>
+      <Name>metadata.keyword_version</Name>
+      <Value>8.0</Value>
+    </Metadata>
+  </Extended_Metadata>
+  <ShortName>GPM_3GPROFF16SSMIS_DAY</ShortName>
+</DIF>

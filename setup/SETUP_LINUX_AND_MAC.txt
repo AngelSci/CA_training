@@ -1,0 +1,78 @@
+# Set-up the Course Environment
+
+## Terminal
+
+You will need to run commands from the Terminal, using the bash shell
+
+* macOS/OSX: use `/Applications/Utilities/Terminal.app`
+* Linux: you already know how
+
+## Set-up Summary
+
+```
+
+conda update conda -y
+anaconda config --set sites.aws.url "http://ec2-107-23-5-12.compute-1.amazonaws.com:8080/api"
+anaconda config --set default_site aws
+
+conda env create
+source activate iqt
+
+conda install -c sharedpackages accelerate-dldist accelerate-gensim accelerate-skimage -y
+conda install -c bcollins bokeh-geo -y
+
+anaconda config --set default_site binstar
+conda install -c bokeh datashader=0.3.2
+```
+
+## Set-up, Details
+
+If you want to understand each step in the block of commands seen above, read on. We will examine each command before running it to understand its purpose.
+
+### Repository Set-up
+
+Perform additional configuration needed for demonstration of Anaconda Repository, including:
+
+* install latest version of conda
+* custom configuration allowing your anaconda client to know the web network address of the AWS host used for this demo.
+
+```
+conda update conda -y
+anaconda config --set sites.aws.url "http://ec2-107-23-5-12.compute-1.amazonaws.com:8080/api"
+anaconda config --set default_site aws
+```
+
+### Baseline environment
+
+The following `conda` command reads the `environment.yml` file and installs all packages listed therein, along with their dependencies (not listed):
+
+```
+conda env create
+```
+
+### Activating the environment
+
+The following conda command activates the environment, which updates your system `$PATH` to point to specific environment and associated versions of packages under your anaconda environments directory:
+
+```
+source activate iqt
+```
+
+### Accelerate, Bokeh, and Datashader set-up
+
+Installs additional packages needed for the demonstration of Anaconda Accelerate, including:
+
+* `accelerate-dldist`
+* `accelerate-gensim`
+* `accelerate-skimage`
+* `bokeh-geo`
+
+
+```
+conda install -c sharedpackages accelerate-dldist accelerate-gensim accelerate-skimage -y
+conda install -c bcollins bokeh-geo -y
+```
+
+## Testing your Set-up
+
+* Launch the Anaconda Navigator and activate the `iqt` environment.

@@ -1,0 +1,96 @@
+---
+Bokeh:
+  - url: https://collegescorecard.ed.gov/downloads/CollegeScorecard_Raw_Data.zip
+    title: 'College Scorecard Data'
+    files:
+      - merged_1996_PP.csv
+      - merged_1997_PP.csv
+      - merged_1998_PP.csv
+      - merged_1999_PP.csv
+      - merged_2000_PP.csv
+      - merged_2001_PP.csv
+      - merged_2002_PP.csv
+      - merged_2003_PP.csv
+      - merged_2004_PP.csv
+      - merged_2005_PP.csv
+      - merged_2006_PP.csv
+      - merged_2007_PP.csv
+      - merged_2008_PP.csv
+      - merged_2009_PP.csv
+      - merged_2010_PP.csv
+      - merged_2011_PP.csv
+      - merged_2012_PP.csv
+      - merged_2013_PP.csv
+
+Datashader:
+  - url: http://s3.amazonaws.com/bokeh_data/census.zip
+    title: 'Census Synthetic People'
+    files:
+      - census.h5
+  - url: http://s3.amazonaws.com/bokeh_data/roswell_landsat8.zip
+    title: 'Rowsell, NM LandSat8 Data'
+    files:
+      - roswell_landsat8_b4_red_mercator.tif
+      - roswell_landsat8_b5_nir_mercator.tif
+  - url: http://s3.amazonaws.com/bokeh_data/austin_dem.zip
+    title: 'Austin, TX Elevation Data'
+    files:
+      - austin_dem.tif
+  - url: http://s3.amazonaws.com/bokeh_data/mobile_landsat8.zip
+    title: 'Mobile, AL LandSat8 Data'
+    files:
+      - MERCATOR_LC80210392016114LGN00_B1.TIF
+      - MERCATOR_LC80210392016114LGN00_B2.TIF
+      - MERCATOR_LC80210392016114LGN00_B3.TIF
+      - MERCATOR_LC80210392016114LGN00_B4.TIF
+      - MERCATOR_LC80210392016114LGN00_B5.TIF
+      - MERCATOR_LC80210392016114LGN00_B6.TIF
+      - MERCATOR_LC80210392016114LGN00_B7.TIF
+      - MERCATOR_LC80210392016114LGN00_B8.TIF
+      - MERCATOR_LC80210392016114LGN00_B9.TIF
+      - MERCATOR_LC80210392016114LGN00_B10.TIF
+      - MERCATOR_LC80210392016114LGN00_B11.TIF
+      - MERCATOR_LC80210392016114LGN00_BQA.TIF
+  - url: http://s3.amazonaws.com/bokeh_data/crater_lake_landsat8.zip
+    title: 'Crater Lake LandSat8 Data'
+    files:
+      - MERCATOR_LC80450302016138LGN00_B1.TIF
+      - MERCATOR_LC80450302016138LGN00_B2.TIF
+      - MERCATOR_LC80450302016138LGN00_B3.TIF
+      - MERCATOR_LC80450302016138LGN00_B4.TIF
+      - MERCATOR_LC80450302016138LGN00_B5.TIF
+      - MERCATOR_LC80450302016138LGN00_B6.TIF
+      - MERCATOR_LC80450302016138LGN00_B7.TIF
+      - MERCATOR_LC80450302016138LGN00_B8.TIF
+      - MERCATOR_LC80450302016138LGN00_B9.TIF
+      - MERCATOR_LC80450302016138LGN00_B10.TIF
+      - MERCATOR_LC80450302016138LGN00_B11.TIF
+      - MERCATOR_LC80450302016138LGN00_BQA.TIF
+  - url: http://s3.amazonaws.com/bokeh_data/nyc_taxi.zip
+    title: 'NYC Taxi Data'
+    files:
+      - nyc_taxi.csv
+  - url: http://s3.amazonaws.com/bokeh_data/nyc_crime.zip
+    title: 'NYC Crime Data'
+    files:
+      - nyc_crime.csv
+
+BokehGeo:
+  - url: http://s3.amazonaws.com/bokeh_data/bokeh_geo.zip
+    title: 'BokehGeo Content'
+    files:
+      - extended_data.kml
+      - linestring.kml
+      - multigeometry.kml
+      - multiline.kml
+      - multipolygon.kml
+      - point.kml
+      - polygon.kml
+      - simpledata.kml
+      - osm.gpx
+      - us_states.dbf
+      - us_states.prj
+      - us_states.sbn
+      - us_states.sbx
+      - us_states.shp
+      - us_states.shp.xml

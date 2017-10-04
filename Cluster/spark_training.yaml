@@ -1,0 +1,6 @@
+name: spark_training
+node_id: ami-9abea4fb
+node_type: m3.medium
+num_nodes: 4
+provider: aws_west
+user: ubuntu

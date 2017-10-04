@@ -1,0 +1,37 @@
+Post-Course Survey: 
+    https://goo.gl/V2NjP9
+
+First morning materials: 
+    https://goo.gl/X1BsLe
+
+Second morning materials: 
+    http://s3.amazonaws.com/bokeh_data/2nd-Day-notebooks.zip
+
+Dask materials: 
+    https://goo.gl/8xqYPA
+
+Anaconda Download:
+    https://www.continuum.io/downloads
+
+IOPro materials:
+    https://goo.gl/eaHwWH
+
+Repository/AEN materials:
+    https://goo.gl/sJTqvC
+
+Day 4 materials:
+    http://s3.amazonaws.com/bokeh_data/day4-materials.zip
+
+AEN URL:
+    http://ec2-54-236-245-201.compute-1.amazonaws.com/
+
+---
+Peter: pwang@continuum.io
+David: dmertz@continuum.io
+Brendan: bcollins@continuum.io
+Coley: colewis@iqt.org
+
+
+Example Conda Package Github Repo:
+  - https://github.com/brendancol/pyconstant
+  - https://github.com/brendancol/conda-package-example
